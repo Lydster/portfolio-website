@@ -1864,10 +1864,20 @@ input, select, textarea {
 		list-style: disc;
 		margin: 0 0 2em 0;
 		padding-left: 1em;
+		padding-left: 2em;
 	}
+
 
 		ul li {
 			padding-left: 0.5em;
+		}
+
+		li p {
+			line-height: 1;
+		}
+
+		#horizontal-list {
+			columns: 2;
 		}
 
 		ul.alt {
